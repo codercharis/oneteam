@@ -45,8 +45,6 @@ import Vuex from 'vuex'
 //   console.log(res)
 // })
 
-import { request } from './network/request'
-
 Vue.use(Vuex)
 Vue.use(ElementUI)
 Vue.config.productionTip = false
@@ -57,10 +55,10 @@ new Vue({
   render: h => h(app)
 }).$mount('#app')
 
-request({
-  url: '/home/multidata'
-}).then(res => {
-  console.log(res)
-}).catch(err => {
-  console.log(err)
-})
+// request({
+//   url: '/home/multidata'
+// }).then(res => {
+//   console.log(res)
+// }).catch(err => {
+//   console.log(err)
+// })

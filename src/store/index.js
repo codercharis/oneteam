@@ -18,15 +18,14 @@ Vue.use(Vuex)
 //   }
 // })
 
-export default new Vuex.Store({
-  state: {
-    const: 1
-  },
-  mutations: {
-    add(state, payload) {
-      state.const++;
-      this.const.push(payload)
-    }
-  }
-})
-
+// export default new Vuex.Store({
+//   state: {
+//     const: 1
+//   },
+//   mutations: {
+//     add (state, payload) {
+//       state.const++
+//       this.const.push(payload)
+//     }
+//   }
+// })
